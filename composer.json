@@ -1,0 +1,26 @@
+{
+  "name": "kennysio/oro-api-client",
+  "description": "A REST client who deals with the ORO-Platform API",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": ["oro", "http", "rest", "restful", "api", "orocrm"],
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Kenny Wildfeuer",
+      "email": "hello@kennys.io",
+      "homepage": "https://kennys.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-curl": "*",
+    "nategood/httpful": "0.2.20",
+    "jwage/purl": "v0.0.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
